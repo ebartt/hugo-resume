@@ -47,8 +47,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Sitemap", name: "sitemap", widget: "object", field: {label: weight, name: weight, widget: "number", valueType: float, step: 0.1, min: 0.0, max: 1.0}}
       - {label: "Body", name: "body", widget: "markdown"}
        
-  - name: "Contributions" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Contributions" # Used in the UI, ie.: "New Post"
+  - name: "portfolio" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "portfolio" # Used in the UI, ie.: "New Post"
     folder: "exampleSite/content/projects/contributions" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
